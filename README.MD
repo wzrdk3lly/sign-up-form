@@ -1,5 +1,7 @@
-## Project: Sign Up Form 
-Overview: The project is meant to be a nice sign up form page. This project will help me improve my html/css form skills. 
+## Sign Up Form 
+![image](images/project-preview.png)
+## Overview
+I created a custom sign-up form with vanilla HTML/CSS. The purpose of this project is to learn form styling and validation checks
 
 ## Lessons Learned 
 - Used Grid to create a custom layout of the webpage
@@ -9,3 +11,5 @@ Overview: The project is meant to be a nice sign up form page. This project will
 
 ## Potential Improvements 
 - Implement JS to add layer of validation checks for password fields
+
+
