@@ -24,7 +24,14 @@ body{
 .picture-creds{
     position: absolute;
     bottom: 0;
-    margin-left: 90px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8rem;
+
+}
+
+a {
     color: white;
 }
 .logo{
@@ -56,8 +63,13 @@ body{
 }
 
 .intro .text{
-    margin-top: 6%;
+
     font-size: 1.4rem;
+    
+}
+.text p{
+    margin-top: 0;
+    margin-bottom: 2%;
 }
 
 
@@ -87,6 +99,7 @@ input[type=password]
     margin-left: 20px;
     width: 40%;
     height: 30px;
+
 }
 
 .form input[type=submit]{
@@ -105,6 +118,24 @@ input[type=password]
 input[type=submit]:hover{
     background-color:  rgba(160, 209, 177, 0.441)
 }
+
+input:invalid{
+    border: 1px solid red;
+}
+
+.pass-mismatch{
+ content: "Passwords don't match";
+}
+
+.legend{
+    margin-right: 100px;
+    margin-left: 18px;
+    font-style: italic;
+}
+/* #signup input:invalid{
+    border: 1px solid #D55C5F;
+} */
+
 
 
 

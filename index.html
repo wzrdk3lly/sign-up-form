@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
     <title>Sign up form</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
         <div class="picture-section">
             <div class="logo">H4k3rs Unit3</div>
             <div class="picture-creds">
-                Photo by FLY:D on uplash
+                Photo by <a href="https://unsplash.com/@flyd2069">FLY:D</a> on uplash
             </div>
         </div>
         
@@ -30,22 +31,24 @@
             </div>
             
            <div class="form">
+            
             <form action="" id="signup">
-              
-                <input type="text" id="first-name" placeholder="First Name">
+               <div class="legend">Fields marked red are required</div>
+               
+                <input type="text" id="first-name" placeholder="First Name" required>
 
              
-                <input type="text" id="last-name" placeholder="Last Name">
+                <input type="text" id="last-name" placeholder="Last Name" required>
 
-                <input type="email" id="email" placeholder="Email">
+                <input type="email" id="email" placeholder="Email" required>
 
                
-                <input type="tel" id="number" placeholder="Phone Number">
+                <input type="tel" id="number" placeholder="Phone Number" >
 
-                <input type="password" id="number" placeholder="Password">
+                <input name="password" type="password" id="number" class="pass-mismatch" placeholder="Password" required>
 
                 
-                <input type="password" id="confirm-password" placeholder="Confirm Password">
+                <input name="passwordConfirm"type="password" id="confirm-password" placeholder="Confirm Password" required>
                 
             </form>
             <input type="submit" form="signup" value="Create Account">
